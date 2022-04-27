@@ -77,7 +77,7 @@ header a:hover {
 .casa {
     padding: 20px 20px 20px 10px;
     height: 50px;
-    animation: arriba 1s ease-out;
+    animation: arriba 1.5s ease-out;
 }
 
 .titulo {
@@ -88,7 +88,7 @@ header a:hover {
     background: rgba(88, 88, 88, 0.354);
     margin: 100px;
     font-size:100%;
-    animation: aparecer 3s ease-in-out;
+    animation: aparecer 2s ease-out;
     
 }
 
@@ -235,6 +235,7 @@ aside {
         flex-wrap: wrap;
         overflow: visible;
         justify-content: center;
+        margin: 0 20px;
     }
 
     .titulo{
@@ -244,8 +245,8 @@ aside {
         padding: 1px;
         margin: 10px;
     }
-    header a{
-        padding: 0 30px 0 20px;
+    li a{
+        padding: 0 20px 0 20px;
     }
 }
 
@@ -255,11 +256,10 @@ aside {
      position: relative;
      top: 70px;}
  
-     li a{  
-         padding-left: 30px;
-         padding-right: 0;
-         
-         }
+     li a {
+         margin: 0 5px;
+         padding: 0 5px;
+     }
 }
 
 
